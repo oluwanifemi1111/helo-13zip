@@ -1,7 +1,7 @@
 import { Platform } from "react-native";
 
 const tintColorLight = "#10B981"; // Updated primary tint to Emerald Green
-const tintColorDark = "#5BA3EC";
+const tintColorDark = "#10B981"; // Use same green accent in dark mode
 
 export const Colors = {
   grey: {
@@ -32,7 +32,7 @@ export const Colors = {
     backgroundSecondary: "#F3F4F6",
     backgroundTertiary: "#D1D5DB",
     pass: "#EF4444",
-    superLike: "#3B82F6",
+    superLike: "#10B981",
     like: "#6B7280",
     rewind: "#F59E0B",
     boost: "#8B5CF6",
@@ -54,7 +54,7 @@ export const Colors = {
     primary: "#10B981",
     primaryLight: "#34D399",
     primaryDark: "#059669",
-    secondary: "#00B2FF",
+    secondary: "#10B981",
     background: "#FFFFFF",
     backgroundGradientStart: "#FFFFFF",
     backgroundGradientEnd: "#F0F4FF",
@@ -78,7 +78,7 @@ export const Colors = {
     backgroundSecondary: "#F5F8FC",
     backgroundTertiary: "#E0E8F0",
     pass: "#FF6B6B",
-    superLike: "#00B2FF",
+    superLike: "#10B981",
     like: "#10B981",
     rewind: "#FFC629",
     boost: "#9B59B6",
@@ -97,10 +97,10 @@ export const Colors = {
     surfaceSecondary: "#F0F4F8",
   },
   dark: {
-    primary: "#5BA3EC",
-    primaryLight: "#4A90D9",
-    primaryDark: "#2E6DB3",
-    secondary: "#00B2FF",
+    primary: "#10B981",
+    primaryLight: "#34D399",
+    primaryDark: "#059669",
+    secondary: "#10B981",
     background: "#0D1117",
     backgroundGradientStart: "#0D1117",
     backgroundGradientEnd: "#161B22",
@@ -118,14 +118,14 @@ export const Colors = {
     online: "#00D856",
     tabIconDefault: "#8B949E",
     tabIconSelected: tintColorDark,
-    link: "#5BA3EC",
+    link: "#10B981",
     backgroundRoot: "#0D1117",
     backgroundDefault: "#0D1117",
     backgroundSecondary: "#161B22",
     backgroundTertiary: "#21262D",
     pass: "#FF6B6B",
-    superLike: "#00B2FF",
-    like: "#5BA3EC",
+    superLike: "#10B981",
+    like: "#10B981",
     rewind: "#FFC629",
     boost: "#9B59B6",
     inputBackground: "#161B22",
@@ -137,8 +137,8 @@ export const Colors = {
     settingsSectionBg: "#161B22",
     settingsItemBg: "#21262D",
     modalBackground: "#161B22",
-    accentGradientStart: "#5BA3EC",
-    accentGradientEnd: "#4A90D9",
+    accentGradientStart: "#10B981",
+    accentGradientEnd: "#34D399",
     card: "#161B22",
     surfaceSecondary: "#21262D",
   },
@@ -263,7 +263,7 @@ export const Shadow = {
     elevation: 3,
   },
   button: {
-    shadowColor: "#4A90D9",
+    shadowColor: "#10B981",
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.3,
     shadowRadius: 8,

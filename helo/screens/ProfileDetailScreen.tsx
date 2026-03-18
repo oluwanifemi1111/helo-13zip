@@ -33,11 +33,11 @@ const PHOTO_HEIGHT = SCREEN_WIDTH * 1.25;
 
 const INTEREST_COLORS = [
   { bg: '#FF6B6B15', border: '#FF6B6B40', text: '#FF6B6B' },
-  { bg: '#4A90D915', border: '#4A90D940', text: '#4A90D9' },
+  { bg: '#10B98115', border: '#10B98140', text: '#10B981' },
   { bg: '#00D85615', border: '#00D85640', text: '#00B847' },
   { bg: '#9B59B615', border: '#9B59B640', text: '#9B59B6' },
   { bg: '#FF990015', border: '#FF990040', text: '#E68A00' },
-  { bg: '#00B2FF15', border: '#00B2FF40', text: '#00B2FF' },
+  { bg: '#10B98115', border: '#10B98140', text: '#10B981' },
   { bg: '#E91E6315', border: '#E91E6340', text: '#E91E63' },
   { bg: '#4CAF5015', border: '#4CAF5040', text: '#4CAF50' },
 ];
@@ -550,12 +550,8 @@ export default function ProfileDetailScreen() {
               style={[styles.distanceCard, { backgroundColor: theme.surface, borderColor: theme.border }]}
               onPress={() => navigation.navigate('UserDistanceMap' as any, { otherUser: user })}
             >
-              <View style={[styles.distanceIconWrap, { backgroundColor: '#00B2FF15' }]}>
-                <Ionicons name="map" size={20} color="#00B2FF" />
-              </View>
-              <View style={styles.distanceTextContent}>
-                <ThemedText style={[styles.distanceTitle, { color: theme.text }]}>
-                  View on Map
+              <View style={[styles.distanceIconWrap, { backgroundColor: '#10B98115' }]}> 
+                <Ionicons name="map" size={20} color="#10B981" />
                 </ThemedText>
                 <ThemedText style={[styles.distanceSubtitle, { color: theme.textSecondary }]}>
                   See their location on the map

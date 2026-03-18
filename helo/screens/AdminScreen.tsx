@@ -479,7 +479,7 @@ export default function AdminScreen({ navigation }: any) {
           refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}
         >
           <View style={styles.statsGrid}>
-            <StatCard title="Total Users" value={stats.totalUsers} icon="people" color="#3b82f6" />
+            <StatCard title="Total Users" value={stats.totalUsers} icon="people" color="#10B981" />
             <StatCard title="Active Today" value={stats.activeToday} icon="pulse" color="#22c55e" />
             <StatCard title="Verified" value={stats.verifiedUsers} icon="checkmark-circle" color="#8b5cf6" />
             <StatCard title="Matches" value={stats.totalMatches} icon="heart" color="#ec4899" />
@@ -594,7 +594,7 @@ export default function AdminScreen({ navigation }: any) {
       {activeTab === 'analytics' && analytics && (
         <ScrollView style={styles.content} refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}>
           <View style={styles.statsGrid}>
-            <StatCard title="Profile Views" value={analytics.profileViewsMonth} icon="eye" color="#3b82f6" />
+            <StatCard title="Profile Views" value={analytics.profileViewsMonth} icon="eye" color="#10B981" />
             <StatCard title="Total Matches" value={analytics.totalMatches} icon="heart" color="#ec4899" />
             <StatCard title="Total Users" value={analytics.totalUsers} icon="people" color="#8b5cf6" />
             <StatCard title="Avg Match Rate" value={`${analytics.avgMatchRate}%`} icon="trending-up" color="#22c55e" />
@@ -623,7 +623,7 @@ export default function AdminScreen({ navigation }: any) {
         <ScrollView style={styles.content} refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}>
           <View style={styles.statsGrid}>
             <StatCard title="Active 24h" value={activity.active24h} icon="pulse" color="#22c55e" />
-            <StatCard title="Active 7d" value={activity.active7d} icon="calendar" color="#3b82f6" />
+            <StatCard title="Active 7d" value={activity.active7d} icon="calendar" color="#10B981" />
             <StatCard title="Messages 24h" value={activity.messages24h} icon="chatbubbles" color="#06b6d4" />
             <StatCard title="Online Now" value={activity.onlineNow} icon="globe" color="#ef4444" />
           </View>

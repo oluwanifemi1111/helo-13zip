@@ -65,8 +65,8 @@ const SOCIAL_LINKS = [
     handle: "afroconnect.app",
     url: "https://afroconnect.app",
     icon: "globe-outline",
-    color: "#4A90D9",
-    bg: "#4A90D915",
+    color: "#10B981",
+    bg: "#10B98115",
   },
 ];
 
